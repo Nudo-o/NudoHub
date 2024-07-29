@@ -59,9 +59,9 @@ const monitoringText1 = new _entities_TextDraw_js__WEBPACK_IMPORTED_MODULE_5__["
 const monitoringText2 = new _entities_TextDraw_js__WEBPACK_IMPORTED_MODULE_5__["default"]("Следящий за слётами", mainConfig.map.middleSize[0] + 1, mainConfig.map.middleSize[1] - 90, 18, mainConfig.colors.monitoringFill[1], mainConfig.colors.nicknameStroke, false, 2, 0, null, 8)
 const serverText = new _entities_TextDraw_js__WEBPACK_IMPORTED_MODULE_5__["default"]("Sun City", mainConfig.map.middleSize[0] + 1, mainConfig.map.middleSize[1] + 49, 26, mainConfig.colors.serverFill, mainConfig.colors.serverStroke, false, 2, 0, null, 0)
 
-const vkImage = new _entities_ImageBox_js__WEBPACK_IMPORTED_MODULE_4__["default"]("./assets/images/vkicon.png", -999, -999, 35)
-const discordImage = new _entities_ImageBox_js__WEBPACK_IMPORTED_MODULE_4__["default"]("./assets/images/discordicon.png", -999, -999, 38)
-const forumImage = new _entities_ImageBox_js__WEBPACK_IMPORTED_MODULE_4__["default"]("./assets/images/forumicon.png", -999, -999, 30)
+const vkImage = new _entities_ImageBox_js__WEBPACK_IMPORTED_MODULE_4__["default"]("./images/vkicon.png", -999, -999, 35)
+const discordImage = new _entities_ImageBox_js__WEBPACK_IMPORTED_MODULE_4__["default"]("./images/discordicon.png", -999, -999, 38)
+const forumImage = new _entities_ImageBox_js__WEBPACK_IMPORTED_MODULE_4__["default"]("./images/forumicon.png", -999, -999, 30)
 
 const serverButton = new _entities_ButtonBox_js__WEBPACK_IMPORTED_MODULE_1__["default"](serverText)
 const vkButton = new _entities_ButtonBox_js__WEBPACK_IMPORTED_MODULE_1__["default"](vkImage)
